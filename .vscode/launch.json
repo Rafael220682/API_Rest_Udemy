@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-UdemyAulaApplication<udemy_aula>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "br.com.teste.udemy_aula.UdemyAulaApplication",
+            "projectName": "udemy_aula",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

@@ -7,13 +7,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import br.com.teste.udemy_aula.model.Produto;
-import br.com.teste.udemy_aula.repository.ProdutoRepository;
+import br.com.teste.udemy_aula.repository.ProdutoRepositoryOld;
 
 @Service
 public class ProdutoService {
     
     @Autowired
-    private ProdutoRepository produtoRepository;
+    private ProdutoRepositoryOld produtoRepository;
 
     public List<Produto> obterTodos(){
         return produtoRepository.obterTodos();

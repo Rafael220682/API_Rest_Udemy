@@ -9,7 +9,7 @@ import org.springframework.stereotype.Repository;
 import br.com.teste.udemy_aula.model.Produto;
 import br.com.teste.udemy_aula.model.exception.ResourceNotFoundException;
 
-
+//ESTA CLASSE É PARA EXECUÇÃO DE REPOSITORY EM LISTA - NÃO INTEGRANDO COM BANCO DE DADOS - NÃO ESTÁ HABILITADA
 @Repository
 public class ProdutoRepositoryOld {
     

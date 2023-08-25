@@ -1,38 +1,15 @@
-package br.com.teste.udemy_aula.model;
+package br.com.teste.udemy_aula.view.model;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-
-@Entity
-public class Produto {
+public class ProdutoRequest {
     
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long id;
+    
     private String nome;
     private Integer quantidade;
     private Double valor;
     private String observacao;
    
-    public Produto() {
-    }
-    
-    public Produto(Long id, String nome, Integer quantidade, Double valor, String observacao) {
-        this.id = id;
-        this.nome = nome;
-        this.quantidade = quantidade;
-        this.valor = valor;
-        this.observacao = observacao;
-    }
-
-    public Long getId() {
-        return id;
-    }
-    public void setId(Long id) {
-        this.id = id;
-    }
+   
+   
     public String getNome() {
         return nome;
     }
@@ -58,5 +35,4 @@ public class Produto {
         this.observacao = observacao;
     }
 
-    
 }
